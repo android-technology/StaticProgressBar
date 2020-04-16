@@ -22,8 +22,8 @@ public class SampleActivity extends Activity {
         customProgressRectangle.setProgressBackgroundColor(res.getColor(R.color.red_200));
 
         CustomProgress customProgressRoundedRectangle = (CustomProgress) findViewById(R.id.customProgressRoundedRectangle);
-        customProgressRoundedRectangle.setMaximumPercentage(0.25f);
-        customProgressRoundedRectangle.useRoundedRectangleShape(30.0f);
+        customProgressRoundedRectangle.setMaximumPercentage(0.75f);
+        customProgressRoundedRectangle.useRoundedRectangleShape(70.0f);
         customProgressRoundedRectangle.setProgressColor(res.getColor(R.color.purple_500));
         customProgressRoundedRectangle.setProgressBackgroundColor(res.getColor(R.color.purple_200));
 
